@@ -21,7 +21,7 @@ li{
     padding: 20px 0px 0px 0px;
     align-items: center;
     gap: 28%;
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif
     
 }
 .header-links{
@@ -46,7 +46,7 @@ li{
     padding-bottom: 35px;
 }
 .big-title{
-    font-family: roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 900;
     font-size: 49px;
     color: #f9faf8;
@@ -67,6 +67,105 @@ button{
     border-radius: 5px;
 }
 
+.random_title{
+    text-align: center;
+    font-size: 48px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    padding: 2em;
+}
+#hero-section{
+    padding: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    margin: 1.5em;
+}
+.empt{
+    width: 300px;
+    border: 6px solid blue;
+    height: 300px;
+    border-radius: 15px;
+}
+.p{
+    width: 300px;
+    font-size: 36px;
+    height: 300px;
+    text-align: center;
+}
+#quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    font-size: 36px;
+    font-family: italic;
+    justify-content: center;
+}
+.quote-container{
+    width: 50%;
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-parag{
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.author{
+    text-align: end;
+}
+#signup-section{
+    
+}
+.signup-container{
+    display: flex;
+    width: 60%;
+    background-color: #3882f3;
+    margin: 4em auto;
+    padding: 3%;
+    justify-content: center;
+    gap: 3%;
+    border-radius: 15px;
+}
+.header-one{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 18px;
+    
+}
+
+.button-heading{
+    color: white;
+    padding: 5px;
+}
+.parag{
+    color: rgb(223, 213, 213);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    
+}
+button{
+    font-size: 24px;
+    background-color:  #3882f3;
+    color: white;
+    border: 2px solid white;
+}
+#footer-section{
+    background-color: #1f2937;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding: 2%;
+}
 
 
 
